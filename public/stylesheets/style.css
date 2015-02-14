@@ -1,0 +1,44 @@
+#body {
+	text-align: center;
+}
+
+#wrappic {
+	margin: 0 auto;
+	width: 450px;
+	height: 286px;
+}
+
+#leftpic {
+	width: 190px;
+	height: 310px;
+	float: left;
+}
+
+#vs {
+	width: 70px;
+	float: left;
+	margin-top: 130px;
+	margin-left: auto;
+	text-align: center;
+}
+
+#vs h3 {
+	margin: 0 auto;
+}
+
+#rightpic {
+	width: 190px;
+	height: 310px;
+	float: left;
+}
+
+#leftimg {
+	width: 190px;
+	height: 286px;
+}
+
+#rightimg {
+	width: 190px;
+	height: 286px;
+}
+

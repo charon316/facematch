@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
+    <script type='text/javascript' src='/javascripts/jquery-1.11.2.min.js'></script>
+    <script type='text/javascript' src='/javascripts/changepic.js'></script>
+  </head>
+  <body>
+    <h1 id="logo"><%= title %></h1>
+    <div id="wrappic">
+    	<div id="leftpic">
+    		<img id="leftimg" src='<%= leftsrc %>' alt="Picture on the left" />
+            <h3> <%= leftpicscore %></h3>
+    	</div>
+    	</script>
+    	<div id="vs">
+    		<h3> VS </h3>
+    	</div>
+    	<div id="rightpic">
+    		<img id="rightimg" src='<%= rightsrc %>' alt="Picture on the right">
+            <h3> <%= rightpicscore %></h3>
+    	</div>
+    </div>
+  </body>
+</html>
